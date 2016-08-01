@@ -1,0 +1,225 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration:none; }
+body{
+    font-family: '宋体';
+    background: #99ccff;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+.toup{
+    width: 100%;
+}
+
+.swp{
+    width: 90%;
+    margin:5% auto;
+    box-shadow:0 0 15px 0 #3399cc inset;
+    border: 3px solid #f9f9f9;
+    border-radius: 10px;
+    padding: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#t1{
+    display: none;
+        }
+        #t1 .swp p{
+            margin: 15px 0;
+            }
+            #t1 .swp h1{
+                text-align: center;
+            }
+        #t1 .jion{
+            background: #ccffff;
+            display: block;
+            width: 90%;
+            height: 40px;
+            text-align: center;
+            font-size: 20px;
+            line-height: 40px;
+            margin: auto;
+            border-radius: 6px;
+            box-shadow:0 0 5px 0 #3399cc ;
+            color: #000000;
+            cursor:pointer;
+            font-weight: 600;
+            transition:all .2s;
+            }
+            #t1 .jion:hover{
+                background: #3399cc ;
+                color: #fff;
+            }
+
+#t2{
+    display: block;
+    position: relative;
+    }
+    #t2jt{
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        top:0;
+        }
+        #t2jt div{
+            height: 5px;
+            width: 0;
+            background: #36b3e9;
+        }
+    #t2 .swp{
+        padding: 0;
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 80px;
+        top: 20px;
+    }
+        #t2 .swp ul{
+            position: relative;
+        }
+        #t2 .swp ul li{
+            float: left;
+            box-sizing: border-box;
+            width: 2000px;
+        }
+        #t2 h4{
+            margin:10px auto;
+            }
+        #t2  .t2lidiv{
+            box-sizing: border-box;
+            padding: 20px;
+
+        }
+        #t2 ul li .t2lidiv .t2lidivs{
+            position: relative;
+            width: 100%;
+            margin:10px auto;
+            padding-left: 20px;
+            padding-right: 60px;
+            cursor: pointer;
+            box-sizing: border-box;
+            transition:all .2s;
+             }
+           #t2 .t2lidiv .t2yuan{
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                top: 6px;
+               border-radius: 50%;
+                right: 40px;
+            }
+            #t2 .t2lidiv .t2yuan.okx{
+                margin: 0;
+                padding: 0;
+                position: absolute;
+                width: 10px;
+                height: 10px;
+                top: 6px;
+                border-radius: 50%;
+                right: 40px;
+                background: red;
+            }
+            #t2 ul li div div:hover{
+                background: #41b9fa;
+                color: #fff;
+            }
+            #t2 ul li div div .lisps{
+                display: block;
+                top:0;
+                position: absolute;
+                margin-left: -20px;
+            }
+            #t2 ul li div div .lisp{
+                display: block;
+                width: 100%;
+            }
+
+
+
+
+    #t2 .btn{
+        background: #a8d7ff;
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        width: 90%;
+        height: 40px;
+        margin:auto;
+        box-shadow: 0 0 5px 0 #36c1f7;
+        border-radius: 6px;
+        cursor:pointer;
+        }
+        #t2 .btn div{
+            position: absolute;
+            width: 50%;
+            height: 40px;
+            font-weight: 600;
+            transition:all .2s;
+            }
+        #t2 .btn div:hover{background:#3399cc; }
+        #t2 .btn div p{
+            position: absolute;
+            display: block;
+            line-height: 40px;
+            font-size: 20px;
+        }
+        #t2 .btn div:nth-child(2){right: 0}
+        #t2 .btn div:nth-child(1) p{right:0; margin-right: 10%}
+        #t2 .btn div:nth-child(2) p{left: 0; margin-left: 10%}
+        #t2 span{
+            position: absolute;
+            display: block;
+            height: 40px;
+            }
+            #t2 .spn1{position: absolute; margin-left: 10px;border-right:1px solid #36b3e9;height: 40px;}
+            #t2 .spn1 img{
+                height: 40px;
+                transform:rotateY(180deg);
+            }
+            #t2 .spn2{
+                position: absolute;right:0;margin-right: 10px;border-left:1px solid #36b3e9}
+            #t2 .btn p{
+                display: block;
+            }
+        #t2 .btn .btnps{
+            position: absolute;
+            display: none;
+            margin: auto;
+            width: 100%;
+            left: 0;
+            right: 0;
+            font-size: 25px;
+            text-align: center;
+            font-weight: 700;
+            line-height: 40px;
+            transition:all .2s;
+        }
+        #t2 .btn .btnps:hover{
+            background:#3399cc;
+        }
+
+#t3{
+    display: block;
+    position: relative;
+        }
+        #t3swp{
+            border-radius: 20px;
+            position: fixed;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 300px;
+            height: 200px;
+            border: 2px solid #fff;
+            background: rgba(65,185,250,.9);
+            box-shadow: 0 0 100px 10px rgb(127, 127, 127);
+        }
+            #t3 h3{
+                line-height: 200px;
+                text-align: center;
+                font-size: 30px;
+                color: #fff;
+                font-weight: 700;
+            }
