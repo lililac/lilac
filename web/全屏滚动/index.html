@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>全屏滚动练习</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <script src="http://hellolilac.com/js/jq-2.1.1/jquery.min.js"></script>
+    <script src="jquery.fullPage.min.js"></script>
+
+    <link rel="stylesheet" href="jquery.fullPage.css"/>
+    <link rel="stylesheet" href="quanp.css">
+    <script>
+        $(function(){
+            $('.con').fullpage({
+                'navigation':true,
+                anchors: ['page1', 'page2', 'page3', 'page4','page5'],
+                menu: '#menu',
+                verticalCentered:false,
+                scrollingSpeed:700
+            });
+        })
+    </script>
+</head>
+<body>
+
+<header class="hd">
+    <div class="navb">
+        <a  class="logo" href="#"><img src="img2/icon.png"  width="40px" alt=""/></a>
+        <nav>
+            <ul id="menu">
+                <li  data-menuanchor="page1" class="active"><a href="#page1">首页</a></li>
+                <li  data-menuanchor="page2"><a href="#page2">宣传</a></li>
+                <li  data-menuanchor="page3"><a href="#page3">卡通</a></li>
+                <li  data-menuanchor="page4"><a href="#page4">活动</a></li>
+                <li  data-menuanchor="page5"><a href="#page5">艺术</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<div class="con">
+        <!--  第一页 -->
+    <section class="section s1">
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="img2/001.jpg" width="250px" alt=""/>
+
+                </li>
+                <li>
+                    <img src="img2/ui1.jpg" width="250px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ho1.png" width="250px" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </section>
+        <!--  第二页  -->
+    <section class="section s2">
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="img2/ui2.jpg" width="250px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ui1.jpg" width="250px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ui3.jpg" width="250px" alt=""/>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!--  第三页  -->
+    <section class="section s3">
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="img2/ban1.jpg" width="270px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ban2.jpg" width="270px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ban3.jpg" width="270px" alt=""/>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+
+    <!--  第四页  -->
+    <section class="section s4">
+
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="img2/ho1.png" width="310px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ho2.png" width="310px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/ho3.png" width="310px" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!--  第五页  -->
+    <section class="section s5">
+        <div class="left">
+            <ul>
+                <li>
+                    <img src="img2/1.jpg" width="270px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/2.jpg" width="270px" alt=""/>
+                </li>
+                <li>
+                    <img src="img2/3.jpg" width="270px" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
