@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>问卷调查</title>
+    <script src="http://apps.bdimg.com/libs/jquery/1.8.0/jquery.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/angular.js/1.5.0-beta.0/angular.min.js"></script>
+    <script src="js/dati.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+
+<section id="t1" class="toup">
+    <div class="swp">
+        <h1>lamoda调查问卷</h1>
+        <p>感谢光临lamoda体验中心！</p>
+        <p>3D时尚定制鞋开创者lamoda是国内领先的鞋类私人订制品牌，致力于为您设计、生产您想要的鞋、舒适的鞋。</p>
+        <p>lamoda自推出“DIY自主设计”以来，受到了众多客户朋友的喜爱与追捧，为了让“DIY”能够更好地满足您对鞋子的所有向往，我们非常期待能知道您的想法。</p>
+        <p>坐下来，品一杯咖啡，细细地想一想，您心中的lamodaDIY，是什么样的呢？</p>
+    </div>
+    <a class="jion">参加本调查</a>
+</section>
+
+<section id="t2" class="toup" >
+    <div id="t2jt">
+        <div></div>
+    </div>
+    <div class="swp" ng-app="myapp">
+        <ul id="t2ul" ng-controller="myaone" style="width: 750px">
+            <li ng-repeat="myi in myis">
+                <div class="t2lidiv">
+                    <h3>{{myi.tit}}</h3>
+                    <h4>{{myi.my}}</h4>
+                    <div class="t2lidivs"> <p class="lisps">1</p> <p class="lisp">  必须满意啊！</p><div class="t2yuan"></div></div>
+                    <div class="t2lidivs"> <p class="lisps">2</p> <p class="lisp">  必须满意啊！</p><div class="t2yuan"> </div></div>
+                    <div class="t2lidivs"> <p class="lisps">3</p> <p class="lisp">  {{myi.con3}}</p><div class="t2yuan"> </div></div>
+                    <div class="t2lidivs"> <p class="lisps">4</p> <p class="lisp">  必须满意啊！</p><div class="t2yuan"> </div></div>
+                    <div class="t2lidivs"> <p class="lisps">5</p> <p class="lisp">  必须满意啊！</p><div class="t2yuan"> </div></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="btn">
+        <div id="t2btn1">
+            <span class="spn1"><img src="jt.png" alt="" width="40px"/></span>
+            <p>上一题</p>
+        </div>
+        <div  id="t2btn2">
+            <span class="spn2"><img src="jt.png" alt="" width="40px"/></span>
+            <p>下一题</p>
+        </div>
+        <p class="btnps">提&nbsp;&nbsp;交</p>
+    </div>
+</section>
+
+<section id="t3" class="toup">
+        <div id="t3swp">
+            <h3>感谢您的参与!</h3>
+        </div>
+</section>
+
+
+</body>
+</html>
